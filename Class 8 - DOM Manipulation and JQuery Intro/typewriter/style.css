@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    height: 100vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#keywords {
+    color: orange;
+    font-weight: 100;
+    border-right: 1px white solid;
+}
+
+.blink {
+    animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+    49% {
+        border-right: 1px black solid;
+    }
+    50% {
+        border-right: 1px white solid;
+    }
+    99% {
+        border-right: 1px black solid; 
+    }
+}
+
+

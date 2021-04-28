@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+#board {
+    width: 600px;
+    height: 600px;
+    margin: auto;
+    border: 5px solid brown;
+    display: flex;
+    flex-direction: column;
+    /* background-color: white; */
+}
+

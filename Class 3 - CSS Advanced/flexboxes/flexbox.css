@@ -1,0 +1,45 @@
+
+/* container */
+#flexbox {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    /* height: 500px; */
+    /* width: 500px; */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: flex-end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; respects the margin you assign */
+    /* justify-content: center; */
+    /* align-content: flex-start; */
+    /* align-content: center; */
+
+}
+
+.item {
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    margin: 10px;
+    color: white;
+    padding: 10px;
+    /* flex-grow: 1; */
+    /* flex-shrink: 1; */
+}
+
+#d {
+    order: -1;
+    /* flex-grow: 1; */
+    flex-shrink: 1;
+}
+
+#a {
+    order: 1;
+    /* flex-grow: 2; */
+    flex-shrink: 2;
+}
+
+#c {
+    /* flex-grow: 1; */
+    flex-shrink: 3;
+}

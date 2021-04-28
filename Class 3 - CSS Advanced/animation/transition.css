@@ -1,0 +1,38 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    margin: 100px;
+}
+
+div:hover{
+    /* background-color: blue; */
+    /* transform: rotateZ(45deg);
+    transition: background-color 2s, transform 2s; */
+    /* animation: spin;
+    animation-duration: 2s;
+    animation-iteration-count: 5; */
+    animation: toandfro;
+    animation-duration: 2s;
+}
+
+
+@keyframes spin {
+    from {
+        transform: rotateZ(0);
+    }
+    to {
+        background-color: blue;
+        transform: rotateZ(360deg);
+    }
+}
+
+@keyframes toandfro {
+
+    50% {
+        transform: translateX(500px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

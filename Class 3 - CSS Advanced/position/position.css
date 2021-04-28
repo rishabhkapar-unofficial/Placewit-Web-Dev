@@ -1,0 +1,14 @@
+div {
+    background-color: antiquewhite;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+
+#outer {
+    position: static;
+    top: 10px;
+    left: 10px;
+    
+}
+

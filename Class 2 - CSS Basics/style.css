@@ -1,0 +1,82 @@
+#id1 {
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+    text-transform: initial;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    display: inline;
+}
+
+ul {
+    color: lawngreen;
+}
+
+ul > li > ul {
+    color: red;
+}
+
+b {
+    border: grey 1px solid;
+    padding: 2px;
+    margin: 10px;
+}
+
+#id4 {
+    
+    display: inline;
+    font-size: 2em;
+}
+
+#div1 {
+    width: 50vw;
+    height: 200px;
+    background-color: khaki;
+    /* margin: 50px; */
+    padding: 10px;
+}
+
+#div2 {
+    width: 100px;
+    height: 100px;
+    background-color: lavender;
+    margin: 20px;
+    border: grey solid 2px;;
+    /* margin: 20px; */
+    padding-left: 10px;
+}
+
+#div3 {
+    width: 50px;
+    height: 50px;
+    background-color: lawngreen;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+
+#outer-div {
+    width: 400px;
+    height: 400px;
+    background-color: grey;
+    border: red 10px solid;
+    margin-left: 30px;
+}
+
+#inner-div {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    border: red 10px solid;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+body {
+    margin: 0px;
+}

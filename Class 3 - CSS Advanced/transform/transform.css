@@ -1,0 +1,21 @@
+#outer {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    margin: 200px;
+    
+    /* transform: scale(2); */
+    /* transform: rotateZ(30deg); */
+}
+
+#inner {
+    height: 100px;
+    width: 100px;
+    background-color:blueviolet;
+    /* padding: 10px; */
+
+}
+
+p {
+    margin-left: 50px;
+}

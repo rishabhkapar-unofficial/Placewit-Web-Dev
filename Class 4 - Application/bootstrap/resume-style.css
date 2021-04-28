@@ -1,0 +1,153 @@
+body {
+    margin: 0px;
+}
+
+#div1 {
+    background-image: url(../images/background.jpg);
+    height: 65vh;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.hl {
+    margin: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+.hl li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.hl li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.hl li a:hover {
+    border-bottom: 1px white solid;
+    color: lightgray;
+
+    transition: color 0.5s, border 2s;
+}
+
+#div2 {
+    width: 100vw;
+    height: auto;
+}
+
+#div2 div {
+    
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: -15vh;
+}
+
+#div2 img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.progress {
+    margin: 25px;
+}
+
+.background {
+    background-color: lightgray;
+    width: 7rem;
+    height: 1.4rem;
+    border-radius: 1.2rem;
+}
+
+.forground {
+    height: inherit;
+    border-radius: 1.2rem;
+
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+
+.seventy-percent {
+    width: 70%;
+}
+
+
+.sixty-percent {
+    width: 60%;
+}
+
+.twenty-percent {
+    width: 20%;
+}
+
+
+
+
+@keyframes fill {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 85;
+    }
+}
+
+.forground span {
+    padding-left: 10px;
+    color: white;
+}
+
+#div3 {
+    position: relative;
+    width: 100vw;
+}
+
+.box {
+    position: relative;
+    width: 40%;
+    min-height: 120px;
+    /* height: 120px; */
+    left: 5%;
+}
+
+.box:nth-child(2n) {
+    left: 55%;
+}
+
+.timeline {
+    position: absolute;
+    height: 75%;
+    width: 0;
+    top: 10%;
+    left: 50%;
+    border: 1px solid blue;
+}
+
+.plane {
+    position: sticky;
+    top: 5%;
+    transform: rotate(90deg);
+    margin-left: -10px;
+}

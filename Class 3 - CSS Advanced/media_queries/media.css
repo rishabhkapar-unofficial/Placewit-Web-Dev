@@ -1,0 +1,33 @@
+div {
+    height: 500px;
+    width: 500px;
+
+    background-color: brown;
+}
+
+
+
+@media (max-width: 750px) and (min-width: 600px) {
+    div {
+        height: 300px;
+        width: 300px;
+        background-color: cadetblue;
+    }
+}
+
+
+@media (max-width: 750px) {
+    div {
+        height: 100px;
+        width: 100px;
+
+        background-color: chartreuse;
+    }
+}
+
+@media (max-width: 500px) and (orientation: landscape) {
+    
+}
+
+
+
