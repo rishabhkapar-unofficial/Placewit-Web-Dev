@@ -3,6 +3,11 @@ const url = "http://localhost:5555/products";
 const addToCartUrl = 'http://localhost:5555/products/cart/';
 $(() => {
     $.get(url).done((data) => { populateData(data) });
+
+    $.get(url+'/name').done((name) => {
+        console.log(name);
+        document.querySelector('#name').innerHTML = name;
+    });
 });
 
 function createCard(data) {

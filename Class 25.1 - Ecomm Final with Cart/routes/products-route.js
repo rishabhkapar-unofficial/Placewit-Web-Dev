@@ -7,8 +7,14 @@ const { isProductInUserProducts } = require("./helper-functions");
 route.use('/cart', require('./cart-route').route);
 
 // GET Methods
+
 route.get('/', (req, res) => {
     productController.getAll().then((data) => res.json(data));
+});
+
+
+route.get('/name', (req, res) => {
+    return res.json(req.user.email);
 });
 
 route.get('/myproducts', (req, res) => {
