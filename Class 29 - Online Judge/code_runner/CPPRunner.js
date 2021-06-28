@@ -104,38 +104,4 @@ function run(testcases, code, username) {
   });
 }
 
-const code = `
-  #include<iostream>
-
-  using namespace std;
-
-  int main(void) {
-    int a, b;
-    cin >> a >> b;
-    // float val = 3.14;
-    // char *ptr = &val;
-    long long int val = 76;
-    int v = val;
-    cout << a - b << endl;
-    return 0;
-  }
-`;
-
-const testcases = [
-  {
-    input: "2 3",
-    output: "5",
-  },
-  {
-    input: "7 8",
-    output: "15",
-  },
-  {
-    input: "3 -5",
-    output: "-2",
-  },
-];
-
-run(testcases, code, "rk")
-  .then((verdict) => console.log(verdict))
-  .catch((e) => console.error(e.toString()));
+module.exports = { run };

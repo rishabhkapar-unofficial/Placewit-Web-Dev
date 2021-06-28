@@ -1,0 +1,10 @@
+exports.INVALID_DATA_MSG = 'Invalid data.';
+exports.PASSWORDS_DONT_MATCH_MSG = 'Passwords do not match.';
+exports.SUCCESSFULLY_REGISTERED_MSG = 'Successfully registered.';
+exports.USERNAME_ALREADY_EXISTS_MSG = 'Username already exist.';
+exports.INVALID_USERNAME_OR_PASSWORD_MSG = 'Username/password is invalid.';
+exports.INTERNAL_ERROR_MSG = 'Some error has occured.';
+exports.SUCCESSFULLY_LOGGED_IN_MSG = 'Successfully logged in.';
+exports.NOT_LOGGED_IN_MSG = "You're not logged in.";
+exports.NOT_AUTHORISED_MSG = "You are not authorised for this action.";
+exports.CODE_SUBMITTED_MSG = "Your code has been successfully submitted.";
