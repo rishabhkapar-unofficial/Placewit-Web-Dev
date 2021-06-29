@@ -1,0 +1,41 @@
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#add-question {
+  margin-top: 10px;
+  width: 90%;
+  border-bottom: 1px white solid;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#add-question button {
+  width: 200px;
+  height: 30px;
+  background-color: rgb(0, 38, 81);
+  color: white;
+  border: none;
+  border-bottom: white 1px solid;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+#add-question button:hover {
+  cursor: pointer;
+  animation-name: buttonhover;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes buttonhover {
+  to {
+    color: rgb(65, 211, 189);
+    border-bottom: 1px rgb(65, 211, 189) solid;
+  }
+}
+

@@ -1,0 +1,63 @@
+main {
+  display: flex;
+  width: 100vw;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+#add-question {
+  padding: 20px;
+  background-color: rgb(65, 211, 189);
+  width: 600px;
+  border-radius: 10px;;
+}
+
+#add-question input {
+  width: 96%;
+  height: 2rem;
+  padding: 1% 2%;
+  border: none;
+  border: 1px rgb(0, 38, 81) solid;
+  margin-bottom: 30px;
+}
+
+#add-question textarea {
+  width: 96%;
+  padding: 2%;
+  border: none;
+  border: 1px rgb(0, 38, 81) solid;
+  margin-bottom: 30px;
+  height: 100px;
+}
+
+#add-question label {
+  text-transform: capitalize;
+  color: white;
+  font-weight: 600;
+  font-size: 1.25rem;
+  
+}
+
+#add-question button {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(0, 38, 81);
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#add-question button:hover {
+  animation-name: buttonflip;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;  
+}
+
+@keyframes buttonflip {
+  to {
+    background-color: white;
+    color: rgb(0, 38, 81);
+  }
+}

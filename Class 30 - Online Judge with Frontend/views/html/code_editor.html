@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Judge</title>
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/background.css">
+  <link rel="stylesheet" href="/css/question_card.css">
+  <link rel="stylesheet" href="/css/code_editor.css">
+</head>
+<body>
+  
+  <header id="nav">
+    <div id="logo">
+      <img src="https://classroom.placewit.com/code/images/logowhite.png">
+    </div>
+    <div id="links">
+      <ul>
+        <li><a href="http://localhost:7777/dashboard">Dashboard</a></li>
+        <li><a href="http://localhost:7777/myquestions">Questions</a></li>
+        <li><a href="http://localhost:7777/mysubmissions">Submission</a></li>
+        <li><a href="#" id="logout-btn">Logout</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <div class="split">
+      <div id="question">
+        <h1 id="title">Add Two Integral Numbers</h1>
+        <div class="display-card">
+          <h2 class="label">Problem Statement</h2>
+          <h3 class="content" id="problem-statement">Given two integral number, add those numbers and print the result to the console.</h3>
+        </div>
+        <div class="display-card">
+          <h2 class="label">Input Format</h2>
+          <h3 class="content" id="input-format">Input consists of two lines, each containing one integer.</h3>
+        </div>
+
+        <div class="display-card">
+          <h2 class="label">Output Format</h2>
+          <h3 class="content" id="output-format">Output consists of one line, containing one integer which is addition of the given numbers.</h3>
+        </div>
+        
+      </div>
+      <div id="editor">
+        <div id="editor-wrapper">
+          <textarea id="code-editor" placeholder="Write your code here..."></textarea>
+        </div>
+        <button type="submit" id="submit">Submit</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/split.js/1.6.0/split.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/js/urls.js"></script>
+  <script src="/js/code_editor.js"></script>
+  <script src="/js/logout.js"></script>
+</body>
+</html>

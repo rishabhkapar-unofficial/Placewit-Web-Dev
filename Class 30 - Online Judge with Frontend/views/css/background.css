@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(0, 38, 81);
+}
+
+textarea:focus {
+  outline: 0;
+}
+
+input {
+  border: none;
+}
+
+input:focus {
+  outline: 0;
+}

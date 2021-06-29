@@ -1,0 +1,47 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  width: 600px;
+  text-align: center;
+  background-color: rgba(33, 37, 41, 0.6);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+input {
+  width: 80%;
+  height: 2rem;
+  margin: 10px 0px;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+button {
+  width: 150px;
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  animation-name: buttonanimation;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes buttonanimation {
+  to {
+    background-color: rgb(0, 38, 81);
+    border: 1px white solid;
+    color: white;
+  }
+}

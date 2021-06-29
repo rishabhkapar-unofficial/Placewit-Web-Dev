@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Question</title>
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/background.css">
+  <link rel="stylesheet" href="/css/add_testcase.css">
+</head>
+<body>
+
+  <header id="nav">
+    <div id="logo">
+      <img src="https://classroom.placewit.com/code/images/logowhite.png">
+    </div>
+    <div id="links">
+      <ul>
+        <li><a href="http://localhost:7777/dashboard">Dashboard</a></li>
+        <li><a href="http://localhost:7777/myquestions">Questions</a></li>
+        <li><a href="http://localhost:7777/mysubmissions">Submission</a></li>
+        <li><a href="#" id="logout-btn">Logout</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <form id="add-question">
+      <h1 class="problem-title" id="title">Problem Title</h1>
+      <textarea name="input" placeholder="Input" id="input"></textarea>
+      <textarea name="output" placeholder="Expected Output" id="output"></textarea>
+      <button type="submit" id="add-btn">ADD</button>
+    </form>
+  </main>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/js/urls.js"></script>
+  <script src="/js/add_testcase.js"></script>
+  <script src="/js/logout.js"></script>
+</body>
+</html>

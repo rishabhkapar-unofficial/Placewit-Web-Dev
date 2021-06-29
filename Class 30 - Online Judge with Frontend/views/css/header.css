@@ -1,0 +1,62 @@
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(33, 37, 41, 0.4);
+  /* background-color: grey; */
+  width: 90vw;
+  padding: 1% 5%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#nav #logo {
+  width: 150px;
+  display: inline-block;
+}
+
+#nav #logo img {
+  width: 100%;
+}
+
+#nav #links {
+  display: inline-block;
+  height: inherit;
+  color: white;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+#nav ul, #nav li {
+  display: inline-block;
+}
+
+#nav li {
+  border-bottom: 1px white solid;
+  padding: 5px;
+  margin: 0 5px;
+}
+
+#nav li:hover {
+  cursor: pointer;
+  animation-name: buttonhover;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes buttonhover {
+  to {
+    color: rgb(65, 211, 189);
+    border-bottom: 1px rgb(65, 211, 189) solid;
+  }
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 11px;
+  }
+}
+

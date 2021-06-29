@@ -1,0 +1,61 @@
+#question-list {
+  display: flex;
+  margin-top: 25px;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.question-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(65, 211, 189);
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 20px;
+  margin: 10px 0px;
+}
+
+.question-card .question-title {
+  display: inline-block;
+}
+
+.question-card button {
+  float: right;
+  background-color: rgb(0, 38, 81);
+  border: none;
+  color: inherit;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0px 2px;
+}
+
+.question-card button:hover {
+  animation-name: buttonflip;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+}
+
+.question-card:hover {
+  animation-name: zoomin;
+  animation-duration: 0.1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes zoomin {
+  to {
+    border: 3px white solid;
+  }
+}
+
+@keyframes buttonflip {
+  to {
+    background-color: white;
+    color: rgb(0, 38, 81);
+  }
+}
